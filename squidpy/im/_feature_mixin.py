@@ -7,7 +7,7 @@ import numpy as np
 import xarray as xr
 
 from skimage.util import img_as_ubyte
-from skimage.feature import graycoprops, graycomatrix
+from skimage.feature import greycomatrix, greycoprops
 import skimage.measure
 
 from squidpy._docs import d
